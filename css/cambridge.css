@@ -1,0 +1,41 @@
+.cambridge{
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    justify-content: center;
+}
+
+.cambridge>div{
+    background: hsl(208, 100%, 33%);
+    max-width: 1200px;
+    display: flex;
+    padding: 30px;
+    border-radius: 20px;
+
+}
+
+.camb-left, .camb-right{
+    padding: 30px;
+    color: white;
+}
+.camb-right{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.cambridge h1{
+    font-size: 2rem;
+}
+
+.cambridge p{
+    font-size: 1.05rem;
+
+}
+
+.cambridge button{
+
+    background: white;
+    border: none;
+    padding: 10px;
+    border: 5px;
+}

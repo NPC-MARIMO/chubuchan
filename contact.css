@@ -1,0 +1,113 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #ffffff;
+    color: #000000;
+}
+
+.contact-us {
+    background-color: #f6f8ff;
+    padding: 70px 15px;
+    text-align: center;
+}
+
+.heading {
+    font-size: 48px;
+    font-weight: 800;
+    margin-bottom: 60px;
+    letter-spacing: 1px;
+}
+
+.card-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 60px;
+    max-width: 1300px;
+    margin: 0 auto;
+}
+
+.contact-card {
+    background: #ffffff;
+    padding: 40px 50px;
+    border-radius: 24px;
+    width: 100%;
+    max-width: 550px;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.06);
+    text-align: left;
+    transition: transform 0.3s ease;
+}
+
+.contact-card:hover {
+    transform: translateY(-5px);
+}
+
+.contact-card h2 {
+    font-size: 26px;
+    font-weight: 700;
+    margin-bottom: 35px;
+    color: #101010;
+}
+
+.contact-row {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    margin-bottom: 30px;
+}
+
+.icon-circle {
+    background-color: #f1f3ff;
+    width: 60px;
+    height: 60px;
+    min-width: 60px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    color: #000;
+}
+
+.text h3 {
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 6px;
+    color: #111;
+}
+
+.text p {
+    font-size: 17px;
+    color: #333;
+    word-break: break-word;
+}
+
+/* Responsive boost */
+@media (max-width: 768px) {
+    .heading {
+        font-size: 36px;
+    }
+
+    .contact-card {
+        padding: 30px 25px;
+    }
+
+    .icon-circle {
+        width: 50px;
+        height: 50px;
+        font-size: 20px;
+    }
+
+    .text h3 {
+        font-size: 18px;
+    }
+
+    .text p {
+        font-size: 16px;
+    }
+}

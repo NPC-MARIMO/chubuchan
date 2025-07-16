@@ -1,0 +1,11 @@
+.subscription-form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.subscription-form>div{
+    background: #005BAA;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

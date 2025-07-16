@@ -1,0 +1,46 @@
+.slider {
+    position: relative;
+    width: 100%;
+    height: 80vh;
+    overflow: hidden;
+}
+
+.slides {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    transition: transform 0.5s ease-in-out;
+}
+
+.slides img {
+    width: 100%;
+    height: 100vh;
+    object-fit: contain;
+    flex-shrink: 0;
+}
+
+.navigation {
+    position: absolute;
+    width: 100%;
+    top: 50%;
+    transform: translateY(-50%);
+    display: flex;
+    justify-content: space-between;
+    padding: 0 20px;
+    z-index: 10;
+}
+
+.navigation span {
+    background: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    font-size: 40px;
+    padding: 10px 20px;
+    border-radius: 50%;
+    cursor: pointer;
+    user-select: none;
+    transition: 0.3s ease;
+}
+
+.navigation span:hover {
+    background: rgba(0, 0, 0, 0.8);
+}
